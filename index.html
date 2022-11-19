@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="./inde.js"></script>
     <title>Frist site</title>
   </head>
   <body>
@@ -20,8 +21,19 @@
               <li><a href=""> Treding </a></li>
               <li><a href=""> Categorias </a></li>
             </ul>
-            <div id="btn-button">
-              <img src="./assets/images/icon-menu.svg" alt="">
+            <div id="mobile-buttom">
+              <div id="mobile" class="mobile">
+                <a href="#" class="closeBtn" onclick="fechar()"><img src="./assets/images/icon-menu-close.svg" alt="" style="width:30px;"></a>
+              <div class="overlay-content">
+                <a href="#">sobre</a>
+                <a href="#">serviços</a>
+                <a href="#">contatos</a>
+                <a href="#">cloentes</a>
+              </div>
+              </div>
+              <button class="nav-buttom" onclick="abrir()">
+                <i><img src="./assets/images/icon-menu.svg" alt=""></i>
+              </button>
             </div>
           </div>
         </nav>
