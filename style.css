@@ -211,7 +211,7 @@ strong {
   #container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0fr 0.8fr 0.8fr 2fr;
+    grid-template-rows: 0fr 0.8fr 0.8fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
       "header"
@@ -259,7 +259,7 @@ strong {
     height: 160px;
   }
   .container-sub-conteudos {
-    height: 150px;
+    height: auto;
   }
   .container-sub-conteudos {
     margin-left: 15px;
