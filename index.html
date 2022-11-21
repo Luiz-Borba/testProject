@@ -9,23 +9,21 @@
     <title>Frist site</title>
   </head>
   <body>
+    <div id="btn-content">
+      <a href="#"></a><img src="./assets/images/icon-menu-close.svg" alt="" onclick="fechar()" id="btn-close">
+      <ul id="ul-mobile">
+        <li><a href="">Home</a></li>
+        <li><a href="">New</a></li>
+        <li><a href="">Popular</a></li>
+        <li><a href="">Treiding</a></li>
+        <li><a href="">Categories</a></li>
+      </ul>
+
+    </div>
     <div id="container">
       <header>
-        <i><img src="./assets/images/logo.svg" alt=""></i>
-        <div id="mobile-buttom">
-          <div id="mobile" class="mobile">
-            <a href="#" class="closeBtn" onclick="fechar()"><img src="./assets/images/icon-menu-close.svg" alt="" style="width:30px;"></a>
-          <div class="overlay-content">
-            <a href="#">sobre</a>
-            <a href="#">serviços</a>
-            <a href="#">contatos</a>
-            <a href="#">cloentes</a>
-          </div>
-          </div>
-          <button class="nav-buttom" onclick="abrir()">
-            <i><img src="./assets/images/icon-menu.svg" alt=""></i>
-          </button>
-        </div>
+        <i> <a href="#" ><img src="./assets/images/logo.svg" alt=""></a></i>
+        <a href="#" id="buttom" onclick="abrir()"><img src="./assets/images/icon-menu.svg" alt=""></a>          
         <nav>
           <div>
             <ul id="menu">
