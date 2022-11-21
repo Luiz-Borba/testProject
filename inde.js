@@ -6,6 +6,7 @@ function abrir(){
     document.getElementById("btn-close").style.visibility = "visible"
     document.getElementById("container").style.backgroundColor = "rgba(0,0,0,0.8)"
     
+    
 }
 function fechar(){
 document.getElementById("btn-content").style.height = "0%"
