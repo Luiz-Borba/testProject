@@ -186,8 +186,6 @@ strong {
   }
   #buttom {
     visibility: visible;
-  }
-  #button {
     width: 30px;
   }
   #big-title {
@@ -197,7 +195,13 @@ strong {
     width: 90%;
     margin-left: 25px;
   }
-
+  #btn-content {
+    width: 50%;
+    margin-left: 50%;
+    position: absolute;
+    background-color: white;
+    height: 0%;
+  }
   #sub-container {
     flex-direction: column;
   }
@@ -230,24 +234,16 @@ strong {
   div > ul > li {
     margin-top: 30px;
   }
-  ul {
-    margin-top: 15%;
-  }
   div > ul > li > a {
     color: #00001a;
   }
-  #btn-content {
-    width: 50%;
-    margin-left: 50%;
-    position: absolute;
-    background-color: white;
-    height: 0%;
+  ul {
+    margin-top: 15%;
   }
   .container-sub-conteudos {
     width: 90%;
     margin-bottom: 10px;
   }
-
   .mobile {
     height: 100%;
     background-color: aqua;
